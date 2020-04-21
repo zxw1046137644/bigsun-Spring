@@ -8,7 +8,9 @@ import java.util.Arrays;
 public class AopProxy {
 
 
-
+    /**
+     * 代理方法实现Aop的配置
+     */
     //要代理的对象
     private AopInterface target;
 

@@ -10,10 +10,13 @@
         http://www.springframework.org/schema/context/spring-context.xsd"
 >
 
-<!--IOC容器扫描-->
-    <!--通过resource-pattern指定扫描的资源-->
+<!--IOC容器自动扫描-->
 <context:component-scan base-package="SpringCRCS" use-default-filters="true">
+    <!--通过resource-pattern指定扫描的资源-->
 <!--resource-pattern="SpringCRCS*.class"-->
+
+
+
     <!--
     annotation:注解
     assignable:方法

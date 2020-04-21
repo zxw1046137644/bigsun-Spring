@@ -10,10 +10,13 @@
     class:唯一
     -->
 <!--    <bean id="user" class="Entry.User" p:name="zxw" p:age="23" autowire="byName" scope="singleton"></bean>-->
+
     <bean id="user" class="Entry.User">
         <property name="name" value="${name}"></property>
         <property name="age" value="${age}"></property>
     </bean>
+
+
     <bean id="crr" class="Entry.Crr" p:cName="bc" p:price="2502000">
 
 

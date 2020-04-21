@@ -6,7 +6,7 @@ import org.junit.Test;
 public class AopTest {
 
     /**
-     * baseFirstTest
+     * baseFirstTest AOP下baseProxy包中代理方法实现SpringAOP
      */
     @Test
     public void test(){

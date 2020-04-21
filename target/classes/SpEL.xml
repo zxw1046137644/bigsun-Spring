@@ -9,6 +9,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!--SpringEl配置-->
     <context:property-placeholder location="classpath:tt.properties"/>
     <!--通过set属性注入
     id:唯一

@@ -10,6 +10,7 @@
 
 
 
+    <!--SpringAop配置-->
 <context:component-scan base-package="AOP.aopAnnotation"></context:component-scan>
 <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 
