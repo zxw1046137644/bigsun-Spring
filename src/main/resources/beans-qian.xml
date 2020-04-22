@@ -10,8 +10,10 @@
         http://www.springframework.org/schema/context/spring-context.xsd"
 >
 
+<!--前置通知-->
+    <context:component-scan base-package="qianzhi"></context:component-scan>
 
-<context:component-scan base-package="generic.di"></context:component-scan>
+
 
 
 

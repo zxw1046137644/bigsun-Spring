@@ -17,10 +17,9 @@
 
 
 
-    <!--
-    annotation:注解
-    assignable:方法
-    -->
+    <!--annotation:注解,assignable:方法-->
+
+
 <!--    <context:include-filter type="assignable" expression="SpringCRCS.Repository.SpringRepositoryImpl"/>&lt;!&ndash;包含某个包&ndash;&gt;-->
 <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository"/>&lt;!&ndash;不包含某个包&ndash;&gt;-->
 </context:component-scan>
