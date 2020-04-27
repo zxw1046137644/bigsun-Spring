@@ -11,7 +11,7 @@
 >
 
 <!--前置通知-->
-    <context:component-scan base-package="qianzhi"></context:component-scan>
+    <context:component-scan base-package="AOP.qianzhi"></context:component-scan>
 
 
 

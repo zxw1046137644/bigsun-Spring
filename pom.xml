@@ -29,6 +29,8 @@
             <artifactId>spring-aop</artifactId>
             <version>4.3.3.RELEASE</version>
         </dependency>
+
+
         <!--aspectj支持-->
         <dependency>
             <groupId>org.aspectj</groupId>

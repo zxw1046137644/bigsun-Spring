@@ -4,7 +4,7 @@ import AOP.baseProxy.AopProxy;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import qianzhi.QianZhiFirst;
+import AOP.qianzhi.QianZhiFirst;
 
 public class AopTest {
 
@@ -23,10 +23,21 @@ public class AopTest {
      * 前置通知
      */
     @Test
-  public void test2(){
+  public void qianzhi(){
         ApplicationContext ctx = new ClassPathXmlApplicationContext("beans-qian.xml");
         QianZhiFirst q = (QianZhiFirst) ctx.getBean("qianZhiFirst");
         System.out.println(q);
   }
+
+    /**
+     * 后置通知
+     */
+    @Test
+    public void houzhi(){
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("beans-qian.xml");
+        QianZhiFirst q = (QianZhiFirst) ctx.getBean("qianZhiFirst");
+        System.out.println(q);
+    }
+
 
 }
