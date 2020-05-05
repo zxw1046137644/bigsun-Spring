@@ -1,10 +1,11 @@
 import AOP.baseProxy.AopFirst;
 import AOP.baseProxy.AopInterface;
 import AOP.baseProxy.AopProxy;
+import AOP.qianzhi.LoginAspect;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import AOP.qianzhi.QianZhiFirst;
+import AOP.qianzhi.QZhiFirst;
 
 public class AopTest {
 
@@ -25,8 +26,10 @@ public class AopTest {
     @Test
   public void qianzhi(){
         ApplicationContext ctx = new ClassPathXmlApplicationContext("beans-qian.xml");
-        QianZhiFirst q = (QianZhiFirst) ctx.getBean("qianZhiFirst");
-        System.out.println(q);
+        QZhiFirst q = (QZhiFirst) ctx.getBean("QZhiFirst");
+        LoginAspect l = (LoginAspect) ctx.getBean("loginAspect");
+        System.out.println(l);
+        System.out.println(q.get(1,2));
   }
 
     /**
@@ -35,7 +38,7 @@ public class AopTest {
     @Test
     public void houzhi(){
         ApplicationContext ctx = new ClassPathXmlApplicationContext("beans-qian.xml");
-        QianZhiFirst q = (QianZhiFirst) ctx.getBean("qianZhiFirst");
+        QZhiFirst q = (QZhiFirst) ctx.getBean("QZhiFirst");
         System.out.println(q);
     }
 
