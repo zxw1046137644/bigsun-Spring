@@ -14,11 +14,11 @@ public class AopProxy {
     //要代理的对象
     private AopInterface target;
 
-    public AopProxy(AopInterface target){
-        this.target=target;
+    public AopProxy(AopInterface target) {
+        this.target = target;
     }
 
-    public AopInterface getAopFirstProxy(){
+    public AopInterface getAopFirstProxy() {
         AopInterface proxy = null;
 
         //代理对象从哪个类加载器加载
@@ -41,12 +41,24 @@ public class AopProxy {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 String name = method.getName();
-                System.out.println(name+"***"+ Arrays.asList(args));
-                Object value = method.invoke(target,args);
+                System.out.println(name + "***" + Arrays.asList(args));
+
+                //调用目标方法
+                Object value = null;
+                try {
+                    //前置通知
+                    value = method.invoke(target, args);
+                    //返回通知
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    //异常通知
+                }
+
+
                 return value;
             }
         };
-        proxy= (AopInterface) Proxy.newProxyInstance(loader,intface,h);
+        proxy = (AopInterface) Proxy.newProxyInstance(loader, intface, h);
 
         return proxy;
     }

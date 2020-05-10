@@ -1,4 +1,4 @@
-package AOP.qianzhi;
+package AOP.returntongzhi;
 
 
 import org.aspectj.lang.JoinPoint;
@@ -15,6 +15,7 @@ public class LoginAspect {
     public void beforeMethod(JoinPoint point)
     {
         String methodName = point.getSignature().getName();
+
         System.out.println("开始前置通知"+methodName);
     }
 
