@@ -3,9 +3,11 @@ package AOP.fivetongzhi;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 //切面类，需要放到IOC容器中
+@Order(2)
 @Component
 @Aspect
 public class LoginAspect {
