@@ -6,6 +6,7 @@ import SpringCRCS.Repository.SpringRepository;
 import SpringCRCS.Service.SpringService;
 import generic.di.UserService;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -59,8 +60,6 @@ public class HelloTest {
         System.out.println(repository);
         System.out.println(service);
         controller.add();
-
-
     }
 
     /**

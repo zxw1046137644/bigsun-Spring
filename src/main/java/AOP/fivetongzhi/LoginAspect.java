@@ -34,7 +34,6 @@ public class LoginAspect {
 
 
     /**
-     * dev3切换看书打卡解放路卡机放得开了骄傲了客服即可了
      * 返回通知，获取方法返回值
      *
      * @param point

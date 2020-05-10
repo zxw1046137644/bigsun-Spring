@@ -1,7 +1,9 @@
 import AOP.baseProxy.AopFirst;
 import AOP.baseProxy.AopInterface;
 import AOP.baseProxy.AopProxy;
+import SpringCRCS.Service.SpringService;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import AOP.fivetongzhi.QianZhiImpl;
@@ -19,6 +21,8 @@ public class AopTest {
         System.out.println(proxy.add(2, 4));
     }
 
+
+
     /**
      * 通知
      */
@@ -27,7 +31,7 @@ public class AopTest {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("beans-qian.xml");
         QianZhiImpl q = (QianZhiImpl) ctx.getBean(QianZhiImpl.class);
         System.out.println("调用方法：" + q.add(1, 2));
-//        System.out.println(q);
+
     }
 
 
