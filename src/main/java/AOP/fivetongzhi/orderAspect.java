@@ -1,7 +1,9 @@
 package AOP.fivetongzhi;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
@@ -10,7 +12,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class orderAspect {
 
-    @Before("execution(public * *(..))")
+    @Pointcut("execution(public * *(..))")
+    public void pointcut() {
+
+    }
+
+
+    @Before("pointcut()")
     public void beforeAspect() {
         System.out.println("切面优先级");
     }
