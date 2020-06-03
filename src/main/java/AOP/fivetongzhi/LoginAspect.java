@@ -46,7 +46,6 @@ public class LoginAspect {
 
     /**
      * 异常通知，获取方法所产生的异常
-     *
      * @param point
      */
     @AfterThrowing(value = "execution(public * *(..))", throwing = "result")
