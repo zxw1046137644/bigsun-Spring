@@ -6,7 +6,6 @@ import SpringCRCS.Repository.SpringRepository;
 import SpringCRCS.Service.SpringService;
 import generic.di.UserService;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -30,7 +29,7 @@ public class HelloTest {
      */
     @Test
     public void staticFactoryTest() {
-        ApplicationContext ctr = new ClassPathXmlApplicationContext("bean-factory.xml");
+        ApplicationContext ctr = new ClassPathXmlApplicationContext("bean-factory-day2.xml");
         Crr car1 = (Crr) ctr.getBean("car1");
         System.out.println(car1);
     }
@@ -40,7 +39,7 @@ public class HelloTest {
      */
     @Test
     public void instanceCarFactoryTest() {
-        ApplicationContext ctr = new ClassPathXmlApplicationContext("bean-factory.xml");
+        ApplicationContext ctr = new ClassPathXmlApplicationContext("bean-factory-day2.xml");
         Crr car1 = (Crr) ctr.getBean("car2");
         System.out.println(car1);
     }

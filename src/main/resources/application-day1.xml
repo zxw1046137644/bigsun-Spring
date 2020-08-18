@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="day1Dao" class="day1.Day1DaoImpl"></bean>
+    <bean id="day1Dao" class="day1.Day1DaoImpl" scope="prototype"></bean>
 
 
 </beans>

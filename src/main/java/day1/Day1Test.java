@@ -12,7 +12,8 @@ public class Day1Test {
     public void day1Test() {
         ApplicationContext app = new ClassPathXmlApplicationContext("application-day1.xml");
         Day1Dao day1Dao = (Day1Dao) app.getBean("day1Dao");
-        System.out.println(day1Dao);
+        Day1Dao day2Dao = (Day1Dao) app.getBean("day1Dao");
+        System.out.println(day1Dao == day2Dao);
         day1Dao.save();
     }
 }
