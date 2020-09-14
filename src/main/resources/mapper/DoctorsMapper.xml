@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="DoctorsMapper">
+    <!--    <resultMap id="BaseResultMap" type="com.example.demo.entity.User">-->
+    <!--        <id column="id" jdbcType="BIGINT" property="id"/>-->
+    <!--        <result column="username" jdbcType="VARCHAR" property="account"/>-->
+    <!--        <result column="password" jdbcType="VARCHAR" property="password"/>-->
+    <!--    </resultMap>-->
+
+    <select id="getDoctors" resultType="mybatisday1.Doctor">
+select
+ *
+from
+yt_doctors
+</select>
+
+    <insert id="insertDoct" parameterType="mybatisday1.Doctor">
+insert into yt_doctors
+values
+(
+#{id},
+#{uniqueMark},
+#{doctIm},
+#{phoneNum},
+#{password},
+#{corpId},
+#{corpName},
+#{doctCode},
+#{doctName},
+#{doctLogo},
+#{profeCode},
+#{profeName},
+#{doctIntro},
+#{doctSpec},
+#{inquiryStatus},
+#{inquiryFee},
+#{maxInquiryNum},
+#{doctToken},
+#{hasPlan},
+#{regStatus},
+#{auth_code},
+#{status},
+#{sex},
+#{valiName},
+#{idType},
+#{idNo},
+#{signAccountId},
+#{signImg},
+#{unionId},
+#{gmtCreate},
+#{gmtModify},
+#{specializeDisease},
+#{doctType},
+#{qualification},
+#{deptCode},
+#{deptName},
+#{doctPiros},
+#{consultationCode}
+)
+
+    </insert>
+
+    <update id="updataDoct" parameterType="mybatisday1.Doctor">
+        update yt_doctors set phone_num = #{phoneNum} where id = #{id}
+    </update>
+
+</mapper>

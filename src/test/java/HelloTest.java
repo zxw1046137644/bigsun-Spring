@@ -1,9 +1,11 @@
 import Entry.Crr;
 import Entry.User;
-import SpringCRCS.Component.SpringBase;
-import SpringCRCS.Controller.SpringController;
-import SpringCRCS.Repository.SpringRepository;
-import SpringCRCS.Service.SpringService;
+
+
+import day5.Component.SpringBase;
+import day5.Controller.SpringController;
+import day5.Repository.SpringRepository;
+import day5.Service.SpringService;
 import generic.di.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -72,4 +74,5 @@ public class HelloTest {
 
 
     }
+
 }

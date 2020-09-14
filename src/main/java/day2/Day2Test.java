@@ -1,7 +1,7 @@
 package day2;
 
 import day1.Day1Dao;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

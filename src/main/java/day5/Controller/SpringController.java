@@ -1,10 +1,10 @@
-package SpringCRCS.Controller;
+package day5.Controller;
 
-import SpringCRCS.Service.SpringService;
+import day5.Service.SpringService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-@Controller
+@Controller("doctc")
 public class SpringController {
 
     @Autowired
