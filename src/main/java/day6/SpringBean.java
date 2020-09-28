@@ -25,15 +25,15 @@ public class SpringBean {
     private String password;
 
     @Bean
-    public ComboPooledDataSource getDataSources() throws PropertyVetoException{
+    public ComboPooledDataSource getDataSources() throws PropertyVetoException, SQLException {
 
         System.out.println("我正在初始化sql");
-        System.out.println(driver);
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         dataSource.setDriverClass(driver);
         dataSource.setJdbcUrl(url);
         dataSource.setUser(username);
         dataSource.setPassword(password);
+        System.out.println(dataSource.getConnection());
         return dataSource;
     }
 

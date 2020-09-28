@@ -17,6 +17,18 @@
             <artifactId>spring-context</artifactId>
             <version>5.0.5.RELEASE</version>
         </dependency>
+        <!--SpringJDBCjar-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.0.5.RELEASE</version>
+        </dependency>
+        <!--SpringJDBCjar-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.0.5.RELEASE</version>
+        </dependency>
 <!--        &lt;!&ndash;AOP支持&ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework</groupId>-->
@@ -62,7 +74,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.11</version>
         </dependency>
-
 
 
     </dependencies>

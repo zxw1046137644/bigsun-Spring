@@ -25,9 +25,9 @@ public class mybatisTest {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
 //        sqlSession.insert("DoctorsMapper.insertDoct",doct);//插入操作
-        sqlSession.update("DoctorsMapper.updataDoct",doct);//修改操作
-//        List<Doctor> doctors = sqlSession.selectList("DoctorsMapper.getDoctors");//查询操作
-//        System.out.println(doctors);
+//        sqlSession.update("DoctorsMapper.updataDoct",doct);//修改操作
+        List<Doctor> doctors = sqlSession.selectList("DoctorsMapper.getDoctors");//查询操作
+        System.out.println(doctors);
         sqlSession.commit();
         sqlSession.close();
     }
