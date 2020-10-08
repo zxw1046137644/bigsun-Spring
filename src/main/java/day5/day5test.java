@@ -12,15 +12,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class day5test {
 
-    @Autowired
-    @Qualifier("springRepository")
-    public SpringRepository springRepository;
+
     @Test
     public void test1() {
         ApplicationContext app = new ClassPathXmlApplicationContext("application-day5.xml");
         SpringService springService = (SpringService) app.getBean("doct");
-
         springService.service();
-        System.out.println(springRepository);
     }
 }

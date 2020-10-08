@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://121.199.14.154:3306/apiresult"/>
+        <property name="user" value="root"></property>
+        <property name="password" value="Zxw1997@"></property>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+
+    <bean id="TransactionDao" class="day8.TransactionDaoImpl">
+        <!--        <property name="jdbcTemplate" ref="jdbcTemplate"></property>-->
+        <constructor-arg name="jdbcTemplate" ref="jdbcTemplate"></constructor-arg>
+    </bean>
+
+    <bean id="TransactionServer" class="day8.TransactionServer">
+        <property name="TransactionDao" ref="TransactionDao"></property>
+    </bean>
+
+</beans>

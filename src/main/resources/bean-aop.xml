@@ -7,11 +7,8 @@
         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd http://www.springframework.org/schema/context">
 
 
-
-
-
     <!--SpringAop配置-->
-<context:component-scan base-package="AOP"></context:component-scan>
-<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+    <context:component-scan base-package="AOP"></context:component-scan>
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 
 </beans>

@@ -1,11 +1,11 @@
+package AOP.fivetongzhi;
+
 import AOP.baseProxy.AopFirst;
 import AOP.baseProxy.AopInterface;
 import AOP.baseProxy.AopProxy;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import AOP.fivetongzhi.QianZhiImpl;
 
 public class AopTest {
 

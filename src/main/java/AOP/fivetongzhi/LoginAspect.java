@@ -15,7 +15,6 @@ public class LoginAspect {
     @Before("execution(public * *(..))")//声明该方法是一个前置通知
     public void beforeMethod(JoinPoint point) {
         String methodName = point.getSignature().getName();
-
         System.out.println("开始前置通知" + methodName);
     }
 

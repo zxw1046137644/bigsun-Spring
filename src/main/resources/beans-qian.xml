@@ -12,12 +12,9 @@
 >
 
 
-
-
-
     <!--自动扫描包-->
     <context:component-scan base-package="AOP.fivetongzhi"></context:component-scan>
     <!--AOP配置前置通知-->
-<!--    <aop:aspectj-autoproxy proxy-target-class="true"/>-->
+    <!--    <aop:aspectj-autoproxy proxy-target-class="true"/>-->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
 </beans>
