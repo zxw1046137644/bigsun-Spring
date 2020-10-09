@@ -2,18 +2,23 @@ package day6;
 
 public class User {
     private String name;
-    private Long id;
-    private Long balance;
+    private int id;
+    private int balance;
+
+
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setId(Long id) {
+    public User() {
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
-    public void setBalance(Long balance) {
+    public void setBalance(int balance) {
         this.balance = balance;
     }
 
@@ -21,11 +26,17 @@ public class User {
         return name;
     }
 
-    public Long getId() {
+    public User(String name, int id, int balance) {
+        this.name = name;
+        this.id = id;
+        this.balance = balance;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public Long getBalance() {
+    public int getBalance() {
         return balance;
     }
 
