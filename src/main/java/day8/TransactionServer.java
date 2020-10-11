@@ -9,12 +9,13 @@ public class TransactionServer {
         this.transactionDao = transactionDao;
     }
 
-    public void transfer(long balance, long id) {
-        transactionDao.in(balance, id);
-        transactionDao.out(balance, id);
+    public void transfer(long balance) {
+        transactionDao.in(balance);
+        int a = 1 / 0;
+        transactionDao.out(balance);
     }
 
-    public void syy(long balance, long id) {
-        System.out.println(balance + " " + id);
+    public void syy(long balance) {
+        System.out.println(balance + " ");
     }
 }

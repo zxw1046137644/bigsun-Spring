@@ -12,12 +12,12 @@ public class TransactionDaoImpl implements TransactionDao {
     }
 
     @Override
-    public void in(Long balance,Long id) {
-        jdbcTemplate.update("update user set balance=balance+? where id=?", balance, id);
+    public void in(Long balance) {
+        jdbcTemplate.update("update user set balance=balance+? where id=?", balance, 1);
     }
 
     @Override
-    public void out(Long balance,Long id) {
-        jdbcTemplate.update("update user set balance=balance-? where id=?", balance, id);
+    public void out(Long balance) {
+        jdbcTemplate.update("update user set balance=balance-? where id=?", balance, 2);
     }
 }

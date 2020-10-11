@@ -11,6 +11,6 @@ public class day8Test {
     public void eightTest() {
         ApplicationContext app = new ClassPathXmlApplicationContext("application-day8.xml");
         TransactionServer transactionServer =  app.getBean(TransactionServer.class);
-        transactionServer.syy(1, 2);
+        transactionServer.transfer(100);
     }
 }
