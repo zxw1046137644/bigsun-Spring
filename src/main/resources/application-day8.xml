@@ -16,7 +16,7 @@
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://121.199.14.154:3306/apiresult"/>
+        <property name="jdbcUrl" value="jdbc:mysql://121.199.14.154:3306/mybase"/>
         <property name="user" value="root"></property>
         <property name="password" value="Zxw1997@"></property>
     </bean>
@@ -41,6 +41,7 @@
     </bean>
 
 
+    <!--通知-->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="*"/>
@@ -48,7 +49,7 @@
 
     </tx:advice>
 
-
+    <!--事务织入-->
     <aop:config>
         <aop:advisor advice-ref="txAdvice" pointcut="execution(* day8.TransactionServer.*(..))"></aop:advisor>
     </aop:config>
