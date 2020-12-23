@@ -1,10 +1,9 @@
 package day6;
 
 public class User {
-    private String name;
     private int id;
+    private String name;
     private int balance;
-
 
 
     public void setName(String name) {

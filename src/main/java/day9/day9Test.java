@@ -1,0 +1,16 @@
+package day9;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class day9Test {
+
+
+    @Test
+    public void eightTest() {
+        ApplicationContext app = new ClassPathXmlApplicationContext("application-day9.xml");
+        TransactionServer transactionServer =  app.getBean(TransactionServer.class);
+        transactionServer.transfer(100);
+    }
+}
