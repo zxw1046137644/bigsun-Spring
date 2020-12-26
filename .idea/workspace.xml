@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="174ca413-acdf-49c9-843d-25578b28c122" name="Default Changelist" comment="dididi">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\installFiles\.m2\repository" />
+        <option name="mavenHome" value="D:/Java/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.6.2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lNU3qFafvY9YO7H4fQYwH9RstF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\server\bigsun-Spring\src\main\resources" />
+      <recent name="D:\Idea\server\bigsun-Spring\src\main\java\day9" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.day7JDBCTEST.test1">
+    <configuration name="day6test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigsun-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day6" />
+      <option name="MAIN_CLASS_NAME" value="day6.day6test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day7JDBCTEST.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigsun-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day7" />
+      <option name="MAIN_CLASS_NAME" value="day7.day7JDBCTEST" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day8Test.eightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigsun-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day8" />
+      <option name="MAIN_CLASS_NAME" value="day8.day8Test" />
+      <option name="METHOD_NAME" value="eightTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day9Test.eightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigsun-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day9" />
+      <option name="MAIN_CLASS_NAME" value="day9.day9Test" />
+      <option name="METHOD_NAME" value="eightTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.day7JDBCTEST.test1" />
+        <item itemvalue="JUnit.day8Test.eightTest" />
+        <item itemvalue="JUnit.day6test.test1" />
+        <item itemvalue="JUnit.day9Test.eightTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="174ca413-acdf-49c9-843d-25578b28c122" name="Default Changelist" comment="" />
+      <created>1607436845069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607436845069</updated>
+      <workItem from="1607436846490" duration="253000" />
+      <workItem from="1607437255949" duration="228000" />
+      <workItem from="1607518021946" duration="1239000" />
+      <workItem from="1607687384512" duration="106000" />
+      <workItem from="1607862065577" duration="3164000" />
+      <workItem from="1607866162305" duration="664000" />
+      <workItem from="1607903957915" duration="33000" />
+      <workItem from="1607952838680" duration="955000" />
+      <workItem from="1608208855723" duration="552000" />
+      <workItem from="1608385700213" duration="730000" />
+      <workItem from="1608466409780" duration="1840000" />
+      <workItem from="1608548853687" duration="601000" />
+      <workItem from="1608635958488" duration="5312000" />
+      <workItem from="1608723666422" duration="3322000" />
+      <workItem from="1608973925530" duration="241000" />
+    </task>
+    <task id="LOCAL-00001" summary="dididi">
+      <created>1607903973066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607903973066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dididi">
+      <created>1608724802206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608724802207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dididi" />
+    <option name="LAST_COMMIT_MESSAGE" value="dididi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1608974028914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608974028914" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608734171857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608734171857" />
+    <state width="1877" height="444" key="GridCell.Tab.0.bottom" timestamp="1608974134909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608974134909" />
+    <state width="1877" height="444" key="GridCell.Tab.0.center" timestamp="1608974134909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608974134909" />
+    <state width="1877" height="444" key="GridCell.Tab.0.left" timestamp="1608974134909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608974134909" />
+    <state width="1877" height="444" key="GridCell.Tab.0.right" timestamp="1608974134909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608974134909" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1607862078829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607862078829" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608724807668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608724807668" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608723675572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608723675572" />
+    <state x="641" y="311" key="git4idea.merge.GitPullDialog" timestamp="1608974138217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="641" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608974138217" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1607953179075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607953179075" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1607862680988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607862680988" />
+  </component>
+</project>
