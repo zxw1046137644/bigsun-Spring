@@ -11,7 +11,7 @@ public class TransactionServer {
 
     public void transfer(long balance) {
         transactionDao.in(balance);
-        int a = 1 / 0;
+//        int a = 1 / 0;
         transactionDao.out(balance);
     }
 

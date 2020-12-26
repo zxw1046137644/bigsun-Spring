@@ -19,8 +19,9 @@ public class day6test {
 //        ComboPooledDataSource bean3 = app.getBean(ComboPooledDataSource.class);
         DruidDataSource bean4 = app.getBean(DruidDataSource.class);
 //        AutowiredService bean2 = (AutowiredService) app.getBean("autowiredservice");
-//        System.out.println(app.getBean(ComboPooledDataSource.class));
-        System.out.println(bean2);
+        System.out.println(app.getBean(ComboPooledDataSource.class));
+        System.out.println(bean4);
+//        System.out.println(bean2);
 
     }
 }
