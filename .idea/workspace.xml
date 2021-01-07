@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="174ca413-acdf-49c9-843d-25578b28c122" name="Default Changelist" comment="dididi">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="174ca413-acdf-49c9-843d-25578b28c122" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,7 +146,12 @@
       <workItem from="1608548853687" duration="601000" />
       <workItem from="1608635958488" duration="5312000" />
       <workItem from="1608723666422" duration="3322000" />
-      <workItem from="1608973925530" duration="241000" />
+      <workItem from="1608973925530" duration="1076000" />
+      <workItem from="1609034273299" duration="700000" />
+      <workItem from="1609037537967" duration="602000" />
+      <workItem from="1609324155559" duration="745000" />
+      <workItem from="1609768982404" duration="470000" />
+      <workItem from="1610021971357" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="dididi">
       <created>1607903973066</created>
@@ -156,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608724802207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dididi">
+      <created>1608974171651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608974171651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,14 +185,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="dididi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1608974028914">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1610023111834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608974028914" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608734171857">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610023111834" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1608974171023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608734171857" />
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608974171023" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609036915926">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609036915926" />
     <state width="1877" height="444" key="GridCell.Tab.0.bottom" timestamp="1608974134909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,18 +217,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607862078829" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608724807668">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608974175880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608724807668" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608723675572">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608974175880" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1609036882909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608723675572" />
-    <state x="641" y="311" key="git4idea.merge.GitPullDialog" timestamp="1608974138217">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609036882909" />
+    <state x="641" y="311" key="git4idea.merge.GitPullDialog" timestamp="1610021974591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="641" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608974138217" />
+    <state x="641" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610021974591" />
+    <state x="334" y="129" key="new project wizard" timestamp="1610023609413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610023609413" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1607953179075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
